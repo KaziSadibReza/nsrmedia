@@ -19,22 +19,20 @@ function kadence_child_enqueue_styles() {
 add_action( 'wp_enqueue_scripts', 'kadence_child_enqueue_styles' );
 
 
+// =============================================================================
+// INCLUDE FILES
+// =============================================================================
+
 /**
- * Include Works Slider Functionality
+ * Frontend Components
  */
 require_once get_stylesheet_directory() . '/include/frontend/works-slider.php';
-
-/**
- * Include Works Slider assets
- */
 require_once get_stylesheet_directory() . '/include/frontend/works-slider-assets.php';
+require_once get_stylesheet_directory() . '/include/frontend/fiverr-reviews-slider.php';
+require_once get_stylesheet_directory() . '/include/frontend/fiverr-reviews-slider-assets.php';
 
 /**
- * Include Works Slider Admin Customizations
+ * Admin Components
  */
 require_once get_stylesheet_directory() . '/include/admin/works-post-type.php';
-
-/**
- * Include Fiverrr Reviews Admin Customizations
- */
 require_once get_stylesheet_directory() . '/include/admin/fiverrr-reviews-post-type.php';
