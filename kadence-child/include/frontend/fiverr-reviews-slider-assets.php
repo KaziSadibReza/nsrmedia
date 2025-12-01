@@ -37,7 +37,7 @@ function enqueue_fiverr_reviews_slider_assets() {
         'fiverr-reviews-slider', 
         get_stylesheet_directory_uri() . '/assets/css/fiverr-reviews-slider.css',
         array('swiper-bundle'),
-        '1.0.0'
+        '1.2.0'
     );
     
     // Swiper JS from CDN (only if not already enqueued)
