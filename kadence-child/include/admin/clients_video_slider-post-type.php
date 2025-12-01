@@ -28,7 +28,7 @@ add_action('do_meta_boxes', function() {
  *
  * @return void
  */
-function remove_editor_works_slider() {
+function remove_editor_clients_video_slider() {
     remove_post_type_support( 'clients_video_slider', 'editor' );
 }
 add_action( 'admin_menu' , 'remove_editor_clients_video_slider' );
