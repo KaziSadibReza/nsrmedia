@@ -47,3 +47,8 @@ require_once get_stylesheet_directory() . '/include/admin/works-post-type.php';
  * Include fiverr reviews post admin features
  */
 require_once get_stylesheet_directory() . '/include/admin/fiverr-reviews-post-type.php';
+
+/**
+ * Include clients video slider post admin features
+ */
+require_once get_stylesheet_directory() . '/include/admin/clients_video_slider-post-type.php';
