@@ -28,3 +28,8 @@ require_once get_stylesheet_directory() . '/include/frontend/works-slider.php';
  * Include Works Slider assets
  */
 require_once get_stylesheet_directory() . '/include/frontend/works-slider-assets.php';
+
+/**
+ * Include Works Slider Admin Customizations
+ */
+require_once get_stylesheet_directory() . '/include/admin/works-post-type.php';
