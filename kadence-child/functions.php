@@ -18,21 +18,32 @@ function kadence_child_enqueue_styles() {
 }
 add_action( 'wp_enqueue_scripts', 'kadence_child_enqueue_styles' );
 
-
-// =============================================================================
-// INCLUDE FILES
-// =============================================================================
-
 /**
- * Frontend Components
+ * Include work slider functions
  */
 require_once get_stylesheet_directory() . '/include/frontend/works-slider.php';
+
+/**
+ * Include work slider assets
+ */
 require_once get_stylesheet_directory() . '/include/frontend/works-slider-assets.php';
+
+/**
+ * Include fiverr reviews slider functions 
+ */
 require_once get_stylesheet_directory() . '/include/frontend/fiverr-reviews-slider.php';
+
+/**
+ *  Include fiverr reviews slider assets
+ */
 require_once get_stylesheet_directory() . '/include/frontend/fiverr-reviews-slider-assets.php';
 
 /**
- * Admin Components
+ * Include works slider post admin features
  */
 require_once get_stylesheet_directory() . '/include/admin/works-post-type.php';
-require_once get_stylesheet_directory() . '/include/admin/fiverrr-reviews-post-type.php';
+
+/**
+ * Include fiverr reviews post admin features
+ */
+require_once get_stylesheet_directory() . '/include/admin/fiverr-reviews-post-type.php';
