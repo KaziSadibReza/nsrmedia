@@ -24,7 +24,7 @@ add_action('do_meta_boxes', function() {
 
 
 /**
- * Remove the content editor for the 'property' post type
+ * Remove the content editor for the 'works-slider' post type
  *
  * @return void
  */

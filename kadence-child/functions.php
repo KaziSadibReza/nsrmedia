@@ -33,3 +33,8 @@ require_once get_stylesheet_directory() . '/include/frontend/works-slider-assets
  * Include Works Slider Admin Customizations
  */
 require_once get_stylesheet_directory() . '/include/admin/works-post-type.php';
+
+/**
+ * Include Fiverrr Reviews Admin Customizations
+ */
+require_once get_stylesheet_directory() . '/include/admin/fiverrr-reviews-post-type.php';
